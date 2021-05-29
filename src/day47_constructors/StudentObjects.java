@@ -5,6 +5,7 @@ public class StudentObjects {
         Student stud1 = new Student(); //runs no-args constructor
         Student stud2 = new Student(); //runs no-args constructor
 
+        // constructor with params
         Student stud3 = new Student("Bashir");
         Student stud4 = new Student("Alihan");
 

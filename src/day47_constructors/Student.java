@@ -5,6 +5,7 @@ public class Student {
 private String name;
 private int age;
 
+//constructor method
     public Student() {
         System.out.println("No-Args Constructor");
     }

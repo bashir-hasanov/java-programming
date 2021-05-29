@@ -22,6 +22,7 @@ public class AddressList {
         Address newAddress = new Address(); // calling constructor automatically
         System.out.println(newAddress.toString());
 
+        // creating new object with constructor method
         Address papaJohnsPizza = new Address("8501 Tyco Rd Ste 1A", "Vienna", "VA", "22102");
     }
 }

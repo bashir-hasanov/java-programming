@@ -7,6 +7,7 @@ public class Address {
     private String zipCode;
     private String country = "USA";
 
+    //this is constructor method
     public Address() {
         System.out.println("Address constructor");
         street = "123 Unknown St";
@@ -17,6 +18,7 @@ public class Address {
 
     // second constructor, overloaded constructor --> provides shortcut to initialize variables
     // in same statement: ex: Address ad = new Address("123 java St", "Boston", "MA", "43213");
+    // this is constructor method with params
     public Address(String street, String city, String state, String zipCode) {
         this.street = street;
         setState(state);
