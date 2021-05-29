@@ -11,5 +11,6 @@ public class StudentObjects {
 
         Student stud5 = new Student("Nasiba", 28);
         Student stud6 = new Student(33);
+
     }
 }
