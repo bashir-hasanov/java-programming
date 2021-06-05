@@ -10,14 +10,14 @@ public class Person {
     String name;
     int age;
     public void walk() {
-        System.out.println("Person is walking");
+        System.out.println(name + " is walking");
     }
 
     public void talk() {
-        System.out.println("Person is walking");
+        System.out.println(name + " is walking");
     }
 
     public void work(String job) {
-        System.out.println("Person is working as a " + job);
+        System.out.println(name + " is working as a " + job);
     }
  }
