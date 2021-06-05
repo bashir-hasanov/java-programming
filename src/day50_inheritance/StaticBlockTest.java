@@ -7,5 +7,7 @@ public class StaticBlockTest {
         StaticBlockDemo stb3 = new StaticBlockDemo();
         System.out.println(StaticBlockDemo.num);
         System.out.println(StaticBlockDemo.carModels);
+
+        StaticBlockDemo stb4 = new StaticBlockDemo(50);
     }
 }

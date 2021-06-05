@@ -18,4 +18,10 @@ public class StaticBlockDemo {
         System.out.println("No-ARGS constructor");
         num += 5;
     }
+
+    public StaticBlockDemo(int value) {
+        System.out.println("value = " + value);
+        value +=num;
+    }
+
 }
