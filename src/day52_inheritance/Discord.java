@@ -14,7 +14,12 @@ public class Discord extends MobileApp {
 
     @Override
     protected boolean download() {
-        System.out.println("Downloaded Discord " + version + " from the App Store.");
+        System.out.println("Downloaded Discord 8.0.2.1 from the App Store.");
         return true;
+    }
+
+    public void printInfo() {
+        System.out.println("App Name = " + getName());
+        System.out.println("App Version = " + getVersion());
     }
 }
