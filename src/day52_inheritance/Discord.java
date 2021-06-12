@@ -11,4 +11,10 @@ public class Discord extends MobileApp {
         super.useTheApp(minutes);
         chat("Bashir");
     }
+
+    @Override
+    protected boolean download() {
+        System.out.println("Downloaded Discord " + version + " from the App Store.");
+        return true;
+    }
 }
