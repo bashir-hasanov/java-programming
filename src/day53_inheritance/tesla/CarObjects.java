@@ -25,5 +25,19 @@ public class CarObjects {
         System.out.println("Count = " + ec2.getCount());
         System.out.println("Count with classname = " + ElectricCar.getCount());
 
+        Roadster roadster = new Roadster("Roadster", 200000.0, 2022, 620);
+        System.out.println(roadster.toString());
+        roadster.drive(1000);
+        roadster.drive(600);
+        System.out.println(roadster.getCount());
+
+        ModelX myModelX = new ModelX("Tesla", "ModelX", 89990.0, 2021, 360);
+        System.out.println(myModelX);
+        myModelX.drive(10);
+        System.out.println("Having lunch ...");
+        myModelX.drive(10);
+        System.out.println("Range remaining = " + myModelX.getRange());
+        System.out.println("Go to electric cars count = " + ElectricCar.getCount());
+
     }
 }
