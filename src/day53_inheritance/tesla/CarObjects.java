@@ -17,5 +17,13 @@ public class CarObjects {
         } else {
             System.out.println("purchasing " + ec1.toString());
         }
+
+        System.out.println("count = " + ec1.getCount());
+
+        ElectricCar ec2 = new ElectricCar("Tesla", "Cybertruck", 59900.0, 2022, 300);
+        System.out.println(ec2);
+        System.out.println("Count = " + ec2.getCount());
+        System.out.println("Count with classname = " + ElectricCar.getCount());
+
     }
 }

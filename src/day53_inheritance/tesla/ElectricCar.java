@@ -73,7 +73,7 @@ public class ElectricCar {
         this.range = range;
     }
 
-    public int getCount() {
+    public static int getCount() {
         return count;
     }
 
