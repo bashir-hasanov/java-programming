@@ -1,5 +1,7 @@
 package day53_inheritance.hiding;
 
+import java.util.Scanner;
+
 public class Parent {
     public String name = "parent > Bashir Hasanov";
 
