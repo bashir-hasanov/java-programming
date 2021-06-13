@@ -7,6 +7,7 @@ public class ElectricCar {
    private double price;
    private int year;
    private int range;
+   private static int count; //all objects will share this variable
 
     public ElectricCar(String make, String model, double price, int year, int range) {
         setMake(make); // reuse the code in the setter method, with condition
@@ -14,7 +15,10 @@ public class ElectricCar {
         this.price = price;
         this.year = year;
         setRange(range);
+        count++; //increase count by 1 - everytime new car object is created
     }
+
+
 
    protected void drive(int miles) {
        if (range == 0 || range - miles < 0) {
@@ -67,6 +71,10 @@ public class ElectricCar {
 
     public void setRange(int range) {
         this.range = range;
+    }
+
+    public int getCount() {
+        return count;
     }
 
     @Override
