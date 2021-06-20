@@ -9,6 +9,7 @@ package day55_abstraction_interface.exercise.interface_demo;
 
 public interface MyInterface {
     public abstract void learn();
+
 }
 
 
