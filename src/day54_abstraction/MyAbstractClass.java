@@ -12,6 +12,7 @@ public abstract class MyAbstractClass {
 
 class Sub extends MyAbstractClass {
 
+    @Override
     public void close() {
         System.out.println("Close - abstract method implementation");
     }
