@@ -7,4 +7,5 @@ public interface SelfDrivable {
     default void selfBrake() {
 
     }
+
 }
