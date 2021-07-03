@@ -12,4 +12,8 @@ public class Superman extends Father implements Worker {
         System.out.println("Superman is getting paid");
         return 8000.0;
     }
+
+    public void fuck() {
+        System.out.println("Father fucks every day");
+    }
 }
