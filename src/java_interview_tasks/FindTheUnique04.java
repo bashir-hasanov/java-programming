@@ -1,6 +1,11 @@
 package java_interview_tasks;
 
-public class FindTheUnique {
+/**
+ * Write a return  method that can find the unique characters from the String
+ * Ex:  unique("AAABBBCCCDEF")  ==>  "DEF";
+ */
+
+public class FindTheUnique04 {
     public static void main(String[] args) {
         System.out.println("Find the unique --> " + unique("AAABBCCCDDDEFHHHGUUIJJKSSSLDDMNOOP"));
     }
