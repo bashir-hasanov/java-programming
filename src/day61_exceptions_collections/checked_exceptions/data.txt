@@ -1,0 +1,7 @@
+java
+selenium
+API
+SQL
+maven
+testNG
+git - github
