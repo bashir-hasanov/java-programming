@@ -31,7 +31,7 @@ public class ElementaryStudent {
 
     public void setAge(int age) {
         if (age < 5 || age > 12) {
-            throw new IllegalArgumentException("Age should be between 5 and 12");
+            throw new IllegalArgumentException("Age cannot be < 5 or > 12");
         } else {
             this.age = age;
         }
