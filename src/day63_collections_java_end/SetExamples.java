@@ -1,9 +1,6 @@
 package day63_collections_java_end;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class SetExamples {
     public static void main(String[] args) {
@@ -36,6 +33,30 @@ public class SetExamples {
         System.out.println(words);
         System.out.println(wordsList);
         System.out.println(wordsList.get(3));
+        System.out.println(words.size());
+        System.out.println(words.removeAll(words));
+        System.out.println("Size after removing = " + words.size());
 
+
+        Set<String> linkedHashSet = new LinkedHashSet<>();
+        linkedHashSet.add("tomato");
+        linkedHashSet.add("35");
+        linkedHashSet.add("java");
+        linkedHashSet.add("*&$");
+        linkedHashSet.add("35");
+        linkedHashSet.add("cucumber");
+        linkedHashSet.add("java");
+        System.out.println("linkedHashSet = " + linkedHashSet);
+
+        Set<String> tree = new TreeSet<>();
+        tree.add("tomato");
+        tree.add("35");
+        tree.add("java");
+        tree.add("*&$");
+        tree.add("35");
+        tree.add("cucumber");
+        tree.add("java");
+        System.out.println("tree = " + tree);
+        // ((TreeSet)tree).first(); -> downcasting
     }
 }
